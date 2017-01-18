@@ -1,0 +1,160 @@
+body {
+    background: white;
+    font-family: Trebuchet, ;
+    margin: 0px;
+}
+
+a {
+    -moz-text-decoration-color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.Header_href a:hover {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #2980b9;
+}
+
+#wrapper {
+    background-color: #ebebeb;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+#Header {
+    background-color: #cfcfcf;
+}
+
+.Header_href {
+    font-size: 30px;
+    padding: 1%;
+    text-align: center;
+    text-indent: 2em;
+}
+
+.label_top {
+    margin-right: 5px;
+}
+
+.label_top:hover {
+    background-color: #a4a4a4;
+    border-radius: 5px;
+}
+
+#content {
+    background: #eee;
+    min-height: 800px;
+    position: relative;
+}
+
+.info {
+    background-color: white;
+    border-radius: 4px;
+    border: 1.5px solid #d7d7d7;
+    height: 450px;
+    left: 320px;
+    margin: 2px;
+    max-width: 650px;
+    position: relative;
+    right: 0px;
+    top: 5px;
+}
+
+.name {
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 1px;
+    padding-left: 10px;
+}
+
+.profile {
+    font-size: 17.5px;
+    font-style: normal;
+    line-height: 26px;
+    padding: 10px;
+}
+
+.left_content{
+    background-color: white;
+    border-radius: 4px;
+    border: 1.5px solid #d7d7d7;
+    margin: 5px;
+    min-height: 600px;
+    position: absolute;
+    width: 305px
+}
+
+.photo {
+    margin: 10px;
+    width: 250px;
+}
+
+.nav {
+    height: 40px;
+    margin-top: 0px; 
+    margin: 50px;
+    width: 200px;
+
+}
+
+.nav li a{
+    font-size: 20px;
+    line-height: px;
+    background-color: #8B8B8B;
+    margin: 1px;
+    color: white;
+
+}
+
+.nav li {
+    list-style: none;
+    width: 50px;
+}
+.nav li a:hover{
+    text-decoration: none;
+}
+
+.nav li a first-child{
+    font-size: 300px;
+}
+
+
+.profile_info_head {
+    font-size: 19px;
+}
+
+.prime {
+    padding-top: 20px;
+    border-top: 1px solid #d7d7d7;
+    font-size: 18px;
+}
+
+.interes {
+    border-top: 1px solid #d7d7d7;
+    margin-top: 10px;
+    
+}
+
+.labelInfo {
+    color: #6e6e6e;
+    float: left;
+    font-size: 16px;
+    width: 180px;
+}
+
+.labelInfo_resoult {
+    font-size: 16.5px;
+    width: 325px;
+}
+
+#footer {
+    background-color: #A1A1A1;
+    min-height: 50px;
+    text-align: center;
+}

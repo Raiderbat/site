@@ -1,0 +1,27 @@
+body {
+    /* background-image:url(images/1.jpg);*/
+    background: linear-gradient(90deg, red, blue);
+    background-attachment: fixed;
+}
+
+.test {
+    transform: rotate(0deg);
+    transition: 1s all;
+    background-color: white;
+    color: #000000;
+    font-size: 24px;
+    border: 10px solid #4f61df;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0px 8px 10px white;
+    text-align: center;
+    font-weight: 0;
+    height: 500px;
+}
+
+
+/*.test:hover {
+    transform: rotate(360deg);
+    background-color: red;
+}*/
